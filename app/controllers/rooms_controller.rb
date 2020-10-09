@@ -16,3 +16,6 @@ end
     params.require(:room).permit(:name, user_ids: [])
   end
 end
+
+def index
+end
